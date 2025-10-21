@@ -6,7 +6,10 @@ best_paths/trials_fno1d
 Data/FitzHugh_Nagumo/Data_generation/experiments
 Data/Dahlquist/data_tensors_Dahlquist
 Data/Dahlquist/datasets_dict_Dahlquist
-Data/FitzHugh_Nagumo/data_tensors
+Data/FitzHugh_Nagumo/data_tensors/dataset_fno1d.pt
+Data/FitzHugh_Nagumo/data_tensors/dataset_fno1d_minmax.pt
+Data/FitzHugh_Nagumo/data_tensors/dataset_fno1d_norm.pt
+Data/FitzHugh_Nagumo/data_tensors/normalization_stats.pt
 Data/FitzHugh_Nagumo/datasets_dict
 Data/Dahlquist/Data_generation/scalar_test/datasets_dict_Dahlquist_scal
 DeepONet
