@@ -1,0 +1,16 @@
+.idea
+.venv
+__pycache__
+best_paths/trials
+best_paths/trials_fno1d
+Data/FitzHugh_Nagumo/Data_generation/experiments
+Data/Dahlquist/data_tensors_Dahlquist
+Data/Dahlquist/datasets_dict_Dahlquist
+Data/FitzHugh_Nagumo/data_tensors
+Data/FitzHugh_Nagumo/datasets_dict
+Data/Dahlquist/Data_generation/scalar_test/datasets_dict_Dahlquist_scal
+DeepONet
+FNO/experiments
+FNO/FHN/experiments
+FNO/FHN/latex_figures
+Plot
