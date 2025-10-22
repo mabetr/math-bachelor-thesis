@@ -1,4 +1,4 @@
-# transformation of the dictionnary in tensor and normalization of the datas
+# transformation of the dictionnary in tensor and normalization (minmax) of the datas
 
 import numpy as np
 import torch
@@ -8,7 +8,6 @@ def prepare_FNO_tensors_vectorized(dataset, resolution):
     # dataset : dict list {'amplitude', 'duration', 'time', 'V'}
     # resolution : lenght of time vector
     # return: X (batch,1,res), Y (batch,1,res) format torch.float32 (and 1 is the channel)
-
 
     amplitudes = np.array([sim["amplitude"] for sim in dataset], dtype=np.float32)[:, None] # (N,1)
     durations = np.array([sim['duration'] for sim in dataset], dtype=np.float32)[:, None]  # (N,1)

@@ -14,6 +14,6 @@ Data/FitzHugh_Nagumo/datasets_dict
 Data/Dahlquist/Data_generation/scalar_test/datasets_dict_Dahlquist_scal
 DeepONet
 FNO/experiments
-FNO/FHN/experiments
-FNO/FHN/latex_figures
+FNO/FitzHugh_Nagumo/experiments
+FNO/FitzHugh_Nagumo/latex_figures
 Plot

@@ -1,3 +1,4 @@
+#FNO training for scalar input -> doesn't work, it needs more than just a scalar in input
 from neuralop.models import FNO1d
 import torch
 import torch.nn as nn
